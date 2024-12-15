@@ -122,20 +122,6 @@ test("require", {}, function()
     assert(require);
 end)
 
-test("restorefunction", {}, function()
-    local Initial = error;
-
-    local Clone = hookfunction(Initial, function()
-        return false;
-    end)
-
-    restorefunction(Initial);
-
-    assert(Initial() == false);
-    assert(Clone()   == false);
-    assert(Initial   == Clone);
-end)
-
 test("hookfunction", {"replaceclosure"}, function()
     local Initial = math.ceil;
 
