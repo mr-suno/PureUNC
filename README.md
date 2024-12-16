@@ -11,7 +11,5 @@ A UNC test—like script to expose any fake UNC in your Roblox exploit
 1. **12/15/2024** - **v1.0.0** ~ Created the project + added initial test design
 2. **12/15/2024** - **v1.0.1** ~ Introduced entire UNC list + added Crypto & File System Library support
 
----
-
-### Authors ✏️
+## Authors ✏️
 - [Suno](https://github.com/mr-suno) - Lead developer, creator of PureUNC
